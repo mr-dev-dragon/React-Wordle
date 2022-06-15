@@ -1,4 +1,5 @@
 import { useState } from 'react'
+
 const useWordle = (solution) => {
   const [turn, setTurn] = useState(0) 
   const [currentGuess, setCurrentGuess] = useState('')
@@ -21,8 +22,8 @@ const useWordle = (solution) => {
 
   // handle keyup event & track current guess
   // if user presses enter, add the new guess
-  const handleKeyup = () => {
-
+  const handleKeyup = ({key}) => {
+console.log(key)
   }
 
   return {turn, currentGuess, guesses, isCorrect, handleKeyup}
