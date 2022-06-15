@@ -14,6 +14,8 @@ function App() {
       })
   }, [setSolution])
 
+
+  
   return (
     <div className="App">
       <h1>Wordle (Lingo)</h1>
