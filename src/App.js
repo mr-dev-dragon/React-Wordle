@@ -41,6 +41,10 @@ game process:
     -- the guess is added the grid with the correct colors
     -- the current guess moves to the next row
     -- the keypad letters are updated (colors)
-
+  -- ending the game:
+    -- when the guessed word fully matches the solution
+      -- modal to say 'well done'
+    -- when the user runs out of guesses
+      -- modal to say 'unlucky'
 
 */
