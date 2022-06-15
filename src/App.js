@@ -25,6 +25,13 @@ data we need to track:
   -- number of turns
     -- an integer 0 - 6
 
+game process:
+  -- entering words:
+    -- user enters a letter & a square is filled with that letter
+    -- when a user hits delete it deletes the previous letter
+    -- when a user hits enter it submits the word
+      -- if all squares are not filled with letters then the word is not submitted
+      -- if that word has already been used in a prev guess then the word is not submitted
 
 
 */
