@@ -23,7 +23,15 @@ const useWordle = (solution) => {
   // handle keyup event & track current guess
   // if user presses enter, add the new guess
   const handleKeyup = ({key}) => {
-console.log(key)
+    if ()
+    if(/^[a-z]$/.test(key)) {
+     if (currentGuess.length < 5) {
+        setCurrentGuess((prev)=> {
+        return
+        })
+
+     }
+    }
   }
 
   return {turn, currentGuess, guesses, isCorrect, handleKeyup}
